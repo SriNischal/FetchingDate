@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Add test files here -->
+<suite name="ASSESSMENTWEBPAGES">
+	<suite-files>
+	  
+	 <suite-file
+			path="src/test/resources/suitefiles/homepage.xml" />
+	<!--  
+		<suite-file
+			path="src/test/resources/suitefiles/heatclinic.xml" />
+ -->
+	</suite-files>
+</suite>
+

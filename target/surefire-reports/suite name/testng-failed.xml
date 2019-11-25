@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [suite name]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="HomePage(failed)" verbose="0">
+    <classes>
+      <class name="com.atmecs.tutorialninja.testscripts.HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="home"/>
+          <include name="closeExtent"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.tutorialninja.testscripts.HomePage -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [suite name] -->
